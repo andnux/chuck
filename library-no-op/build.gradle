@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.andnux'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+}
+
+dependencies {
+    api "com.squareup.okhttp3:okhttp:4.5.0"
+}

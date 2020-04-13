@@ -1,0 +1,2 @@
+rootProject.name='chuck'
+include ':app', ':library', ':library-no-op'
